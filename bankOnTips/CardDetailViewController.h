@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CardDetailViewController.h
 //  bankOnTips
 //
 //  Created by 全宝蓝萌萌哒 on 16/6/4.
@@ -7,12 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "AppDelegate.h"
-#import "SignInViewController.h"
+#import "IdentifyBank.h"
 #import "DSToast.h"
 
-@interface ViewController : UIViewController
+@interface CardDetailViewController : UIViewController
 
+@property (strong, nonatomic) NSDictionary *dict;
 
 @end
-

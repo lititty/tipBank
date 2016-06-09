@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AddCardViewController.h
 //  bankOnTips
 //
 //  Created by 全宝蓝萌萌哒 on 16/6/4.
@@ -7,12 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "AppDelegate.h"
-#import "SignInViewController.h"
+#import "UIView+SDAutoLayout.h"
 #import "DSToast.h"
+#import <LocalAuthentication/LocalAuthentication.h>
 
-@interface ViewController : UIViewController
-
+@interface AddCardViewController : UIViewController
 
 @end
-

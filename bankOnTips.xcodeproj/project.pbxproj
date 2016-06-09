@@ -15,6 +15,44 @@
 		3F003FE11D02530D0059FC62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F003FDF1D02530D0059FC62 /* LaunchScreen.storyboard */; };
 		3F003FEC1D02530D0059FC62 /* bankOnTipsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F003FEB1D02530D0059FC62 /* bankOnTipsTests.m */; };
 		3F003FF71D02530D0059FC62 /* bankOnTipsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F003FF61D02530D0059FC62 /* bankOnTipsUITests.m */; };
+		3F0040091D0253E20059FC62 /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0040061D0253E20059FC62 /* UITableView+SDAutoTableViewCellHeight.m */; };
+		3F00400A1D0253E20059FC62 /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0040081D0253E20059FC62 /* UIView+SDAutoLayout.m */; };
+		3F0040141D029A6F0059FC62 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0040131D029A6F0059FC62 /* SignInViewController.m */; };
+		3F00401B1D02CA0B0059FC62 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F00401A1D02CA0B0059FC62 /* MainViewController.m */; };
+		3F00402A1D0303470059FC62 /* CardsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0040291D0303470059FC62 /* CardsTableViewController.m */; };
+		3F00402D1D030EEF0059FC62 /* AddCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F00402C1D030EEF0059FC62 /* AddCardViewController.m */; };
+		3F0040301D030FAA0059FC62 /* CardDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F00402F1D030FAA0059FC62 /* CardDetailViewController.m */; };
+		3F0040331D03110C0059FC62 /* BillListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0040321D03110C0059FC62 /* BillListTableViewController.m */; };
+		3F0040491D0346C40059FC62 /* bill1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0040461D0346C40059FC62 /* bill1.png */; };
+		3F00404A1D0346C40059FC62 /* card1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0040471D0346C40059FC62 /* card1.png */; };
+		3F00404B1D0346C40059FC62 /* pay1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0040481D0346C40059FC62 /* pay1.png */; };
+		3F00404D1D034BD30059FC62 /* backArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F00404C1D034BD30059FC62 /* backArrow.png */; };
+		3F0F79CE1D04925E005A82DE /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F79CD1D04925E005A82DE /* SSKeychain.m */; };
+		3F0F79D11D0492AD005A82DE /* IdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F79D01D0492AD005A82DE /* IdModel.m */; };
+		3F5FE7791D04C65200CE4892 /* backArrow1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F5FE7781D04C65200CE4892 /* backArrow1.png */; };
+		3F5FE77C1D05364300CE4892 /* BillDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5FE77B1D05364300CE4892 /* BillDetailView.m */; };
+		3F5FE77F1D05444400CE4892 /* DSToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5FE77E1D05444400CE4892 /* DSToast.m */; };
+		3F5FE7821D05B0B100CE4892 /* IdentifyBank.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5FE7811D05B0B100CE4892 /* IdentifyBank.m */; };
+		3F5FE7C01D06C7F400CE4892 /* PayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5FE7BF1D06C7F400CE4892 /* PayView.m */; };
+		3F5FE8061D07120E00CE4892 /* 付款.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F5FE8031D07120E00CE4892 /* 付款.png */; };
+		3F5FE8071D07120E00CE4892 /* 扫一扫.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F5FE8041D07120E00CE4892 /* 扫一扫.png */; };
+		3F5FE8081D07120E00CE4892 /* 转账.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F5FE8051D07120E00CE4892 /* 转账.png */; };
+		3F5FE8471D07378100CE4892 /* ScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5FE8461D07378100CE4892 /* ScanView.m */; };
+		3F5FE84A1D07399600CE4892 /* TransferView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5FE8491D07399600CE4892 /* TransferView.m */; };
+		3FD24B601D07A5E5008D6A39 /* CreatQRView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD24B5F1D07A5E5008D6A39 /* CreatQRView.m */; };
+		3FD24B9C1D07C21B008D6A39 /* tipBackWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD24B9B1D07C21B008D6A39 /* tipBackWhite.png */; };
+		3FD47B401D03C76E006A9A2B /* tip.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD47B3F1D03C76E006A9A2B /* tip.png */; };
+		3FD47BE41D03FD6B006A9A2B /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD47BDC1D03FD6B006A9A2B /* 0.png */; };
+		3FD47BE51D03FD6B006A9A2B /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD47BDD1D03FD6B006A9A2B /* 1.png */; };
+		3FD47BE61D03FD6B006A9A2B /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD47BDE1D03FD6B006A9A2B /* 2.png */; };
+		3FD47BE71D03FD6B006A9A2B /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD47BDF1D03FD6B006A9A2B /* 3.png */; };
+		3FD47BE81D03FD6B006A9A2B /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD47BE01D03FD6B006A9A2B /* 4.png */; };
+		3FD47BE91D03FD6B006A9A2B /* ImageInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FD47BE11D03FD6B006A9A2B /* ImageInfo.plist */; };
+		3FD47BEA1D03FD6B006A9A2B /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD47BE31D03FD6B006A9A2B /* MyScrollView.m */; };
+		3FD47BEF1D03FE9D006A9A2B /* 工商银行.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD47BEB1D03FE9D006A9A2B /* 工商银行.png */; };
+		3FD47BF01D03FE9D006A9A2B /* 建设银行.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD47BEC1D03FE9D006A9A2B /* 建设银行.png */; };
+		3FD47BF11D03FE9D006A9A2B /* 交通银行.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD47BED1D03FE9D006A9A2B /* 交通银行.png */; };
+		3FD47BF21D03FE9D006A9A2B /* 农业银行.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD47BEE1D03FE9D006A9A2B /* 农业银行.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +89,62 @@
 		3F003FF21D02530D0059FC62 /* bankOnTipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bankOnTipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F003FF61D02530D0059FC62 /* bankOnTipsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bankOnTipsUITests.m; sourceTree = "<group>"; };
 		3F003FF81D02530D0059FC62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0040051D0253E20059FC62 /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITableView+SDAutoTableViewCellHeight.h"; path = "../../../../../../Downloads/SDAutoLayout-master/SDAutoLayoutDemo/SDAutoLayout/UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		3F0040061D0253E20059FC62 /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITableView+SDAutoTableViewCellHeight.m"; path = "../../../../../../Downloads/SDAutoLayout-master/SDAutoLayoutDemo/SDAutoLayout/UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		3F0040071D0253E20059FC62 /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+SDAutoLayout.h"; path = "../../../../../../Downloads/SDAutoLayout-master/SDAutoLayoutDemo/SDAutoLayout/UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		3F0040081D0253E20059FC62 /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+SDAutoLayout.m"; path = "../../../../../../Downloads/SDAutoLayout-master/SDAutoLayoutDemo/SDAutoLayout/UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		3F0040121D029A6F0059FC62 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		3F0040131D029A6F0059FC62 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		3F0040191D02CA0B0059FC62 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3F00401A1D02CA0B0059FC62 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		3F0040281D0303470059FC62 /* CardsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardsTableViewController.h; sourceTree = "<group>"; };
+		3F0040291D0303470059FC62 /* CardsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardsTableViewController.m; sourceTree = "<group>"; };
+		3F00402B1D030EEF0059FC62 /* AddCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCardViewController.h; sourceTree = "<group>"; };
+		3F00402C1D030EEF0059FC62 /* AddCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCardViewController.m; sourceTree = "<group>"; };
+		3F00402E1D030FAA0059FC62 /* CardDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardDetailViewController.h; sourceTree = "<group>"; };
+		3F00402F1D030FAA0059FC62 /* CardDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardDetailViewController.m; sourceTree = "<group>"; };
+		3F0040311D03110C0059FC62 /* BillListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillListTableViewController.h; sourceTree = "<group>"; };
+		3F0040321D03110C0059FC62 /* BillListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BillListTableViewController.m; sourceTree = "<group>"; };
+		3F0040461D0346C40059FC62 /* bill1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bill1.png; sourceTree = "<group>"; };
+		3F0040471D0346C40059FC62 /* card1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card1.png; sourceTree = "<group>"; };
+		3F0040481D0346C40059FC62 /* pay1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pay1.png; sourceTree = "<group>"; };
+		3F00404C1D034BD30059FC62 /* backArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backArrow.png; sourceTree = "<group>"; };
+		3F0F79CC1D04925E005A82DE /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
+		3F0F79CD1D04925E005A82DE /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
+		3F0F79CF1D0492AD005A82DE /* IdModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdModel.h; sourceTree = "<group>"; };
+		3F0F79D01D0492AD005A82DE /* IdModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdModel.m; sourceTree = "<group>"; };
+		3F5FE7781D04C65200CE4892 /* backArrow1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backArrow1.png; sourceTree = "<group>"; };
+		3F5FE77A1D05364300CE4892 /* BillDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillDetailView.h; sourceTree = "<group>"; };
+		3F5FE77B1D05364300CE4892 /* BillDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BillDetailView.m; sourceTree = "<group>"; };
+		3F5FE77D1D05444400CE4892 /* DSToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSToast.h; sourceTree = "<group>"; };
+		3F5FE77E1D05444400CE4892 /* DSToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSToast.m; sourceTree = "<group>"; };
+		3F5FE7801D05B0B100CE4892 /* IdentifyBank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdentifyBank.h; sourceTree = "<group>"; };
+		3F5FE7811D05B0B100CE4892 /* IdentifyBank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdentifyBank.m; sourceTree = "<group>"; };
+		3F5FE7BE1D06C7F400CE4892 /* PayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayView.h; sourceTree = "<group>"; };
+		3F5FE7BF1D06C7F400CE4892 /* PayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayView.m; sourceTree = "<group>"; };
+		3F5FE8031D07120E00CE4892 /* 付款.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "付款.png"; sourceTree = "<group>"; };
+		3F5FE8041D07120E00CE4892 /* 扫一扫.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "扫一扫.png"; sourceTree = "<group>"; };
+		3F5FE8051D07120E00CE4892 /* 转账.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "转账.png"; sourceTree = "<group>"; };
+		3F5FE8451D07378100CE4892 /* ScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanView.h; sourceTree = "<group>"; };
+		3F5FE8461D07378100CE4892 /* ScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanView.m; sourceTree = "<group>"; };
+		3F5FE8481D07399600CE4892 /* TransferView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransferView.h; sourceTree = "<group>"; };
+		3F5FE8491D07399600CE4892 /* TransferView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransferView.m; sourceTree = "<group>"; };
+		3FD24B5E1D07A5E5008D6A39 /* CreatQRView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatQRView.h; sourceTree = "<group>"; };
+		3FD24B5F1D07A5E5008D6A39 /* CreatQRView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatQRView.m; sourceTree = "<group>"; };
+		3FD24B9B1D07C21B008D6A39 /* tipBackWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tipBackWhite.png; sourceTree = "<group>"; };
+		3FD47B3F1D03C76E006A9A2B /* tip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tip.png; sourceTree = "<group>"; };
+		3FD47BDC1D03FD6B006A9A2B /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		3FD47BDD1D03FD6B006A9A2B /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		3FD47BDE1D03FD6B006A9A2B /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		3FD47BDF1D03FD6B006A9A2B /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		3FD47BE01D03FD6B006A9A2B /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		3FD47BE11D03FD6B006A9A2B /* ImageInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ImageInfo.plist; sourceTree = "<group>"; };
+		3FD47BE21D03FD6B006A9A2B /* MyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScrollView.h; sourceTree = "<group>"; };
+		3FD47BE31D03FD6B006A9A2B /* MyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScrollView.m; sourceTree = "<group>"; };
+		3FD47BEB1D03FE9D006A9A2B /* 工商银行.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "工商银行.png"; sourceTree = "<group>"; };
+		3FD47BEC1D03FE9D006A9A2B /* 建设银行.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "建设银行.png"; sourceTree = "<group>"; };
+		3FD47BED1D03FE9D006A9A2B /* 交通银行.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "交通银行.png"; sourceTree = "<group>"; };
+		3FD47BEE1D03FE9D006A9A2B /* 农业银行.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "农业银行.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +195,15 @@
 		3F003FD01D02530C0059FC62 /* bankOnTips */ = {
 			isa = PBXGroup;
 			children = (
+				3F0F79CB1D049251005A82DE /* uuid */,
+				3FD47C361D0460C5006A9A2B /* data */,
+				3F00401C1D02D2200059FC62 /* images */,
+				3F00400B1D0253EB0059FC62 /* SDAutoLayout */,
+				3F0040041D02537C0059FC62 /* View */,
 				3F003FD41D02530C0059FC62 /* AppDelegate.h */,
 				3F003FD51D02530C0059FC62 /* AppDelegate.m */,
-				3F003FD71D02530C0059FC62 /* ViewController.h */,
-				3F003FD81D02530C0059FC62 /* ViewController.m */,
+				3F5FE77D1D05444400CE4892 /* DSToast.h */,
+				3F5FE77E1D05444400CE4892 /* DSToast.m */,
 				3F003FDA1D02530C0059FC62 /* Main.storyboard */,
 				3F003FDD1D02530D0059FC62 /* Assets.xcassets */,
 				3F003FDF1D02530D0059FC62 /* LaunchScreen.storyboard */,
@@ -138,6 +237,137 @@
 				3F003FF81D02530D0059FC62 /* Info.plist */,
 			);
 			path = bankOnTipsUITests;
+			sourceTree = "<group>";
+		};
+		3F0040041D02537C0059FC62 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3FD47BF31D04003F006A9A2B /* login */,
+				3FD47BF41D040093006A9A2B /* mainView */,
+				3FD47BF51D0400B7006A9A2B /* cardView */,
+				3F5FE7BD1D06C78700CE4892 /* pay */,
+				3FD47BF61D0400C6006A9A2B /* billView */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3F00400B1D0253EB0059FC62 /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				3F0040051D0253E20059FC62 /* UITableView+SDAutoTableViewCellHeight.h */,
+				3F0040061D0253E20059FC62 /* UITableView+SDAutoTableViewCellHeight.m */,
+				3F0040071D0253E20059FC62 /* UIView+SDAutoLayout.h */,
+				3F0040081D0253E20059FC62 /* UIView+SDAutoLayout.m */,
+			);
+			name = SDAutoLayout;
+			sourceTree = "<group>";
+		};
+		3F00401C1D02D2200059FC62 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3FD24B9B1D07C21B008D6A39 /* tipBackWhite.png */,
+				3F5FE8031D07120E00CE4892 /* 付款.png */,
+				3F5FE8041D07120E00CE4892 /* 扫一扫.png */,
+				3F5FE8051D07120E00CE4892 /* 转账.png */,
+				3FD47BEB1D03FE9D006A9A2B /* 工商银行.png */,
+				3FD47BEC1D03FE9D006A9A2B /* 建设银行.png */,
+				3FD47BED1D03FE9D006A9A2B /* 交通银行.png */,
+				3FD47BEE1D03FE9D006A9A2B /* 农业银行.png */,
+				3FD47BDC1D03FD6B006A9A2B /* 0.png */,
+				3FD47BDD1D03FD6B006A9A2B /* 1.png */,
+				3FD47BDE1D03FD6B006A9A2B /* 2.png */,
+				3FD47BDF1D03FD6B006A9A2B /* 3.png */,
+				3FD47BE01D03FD6B006A9A2B /* 4.png */,
+				3FD47B3F1D03C76E006A9A2B /* tip.png */,
+				3F0040461D0346C40059FC62 /* bill1.png */,
+				3F00404C1D034BD30059FC62 /* backArrow.png */,
+				3F5FE7781D04C65200CE4892 /* backArrow1.png */,
+				3F0040471D0346C40059FC62 /* card1.png */,
+				3F0040481D0346C40059FC62 /* pay1.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		3F0F79CB1D049251005A82DE /* uuid */ = {
+			isa = PBXGroup;
+			children = (
+				3F0F79CF1D0492AD005A82DE /* IdModel.h */,
+				3F0F79D01D0492AD005A82DE /* IdModel.m */,
+				3F0F79CC1D04925E005A82DE /* SSKeychain.h */,
+				3F0F79CD1D04925E005A82DE /* SSKeychain.m */,
+			);
+			name = uuid;
+			sourceTree = "<group>";
+		};
+		3F5FE7BD1D06C78700CE4892 /* pay */ = {
+			isa = PBXGroup;
+			children = (
+				3F5FE8451D07378100CE4892 /* ScanView.h */,
+				3F5FE8461D07378100CE4892 /* ScanView.m */,
+				3F5FE7BE1D06C7F400CE4892 /* PayView.h */,
+				3F5FE7BF1D06C7F400CE4892 /* PayView.m */,
+				3F5FE8481D07399600CE4892 /* TransferView.h */,
+				3F5FE8491D07399600CE4892 /* TransferView.m */,
+				3FD24B5E1D07A5E5008D6A39 /* CreatQRView.h */,
+				3FD24B5F1D07A5E5008D6A39 /* CreatQRView.m */,
+			);
+			name = pay;
+			sourceTree = "<group>";
+		};
+		3FD47BF31D04003F006A9A2B /* login */ = {
+			isa = PBXGroup;
+			children = (
+				3F0040121D029A6F0059FC62 /* SignInViewController.h */,
+				3F0040131D029A6F0059FC62 /* SignInViewController.m */,
+				3F003FD71D02530C0059FC62 /* ViewController.h */,
+				3F003FD81D02530C0059FC62 /* ViewController.m */,
+			);
+			name = login;
+			sourceTree = "<group>";
+		};
+		3FD47BF41D040093006A9A2B /* mainView */ = {
+			isa = PBXGroup;
+			children = (
+				3FD47BE11D03FD6B006A9A2B /* ImageInfo.plist */,
+				3FD47BE21D03FD6B006A9A2B /* MyScrollView.h */,
+				3FD47BE31D03FD6B006A9A2B /* MyScrollView.m */,
+				3F0040191D02CA0B0059FC62 /* MainViewController.h */,
+				3F00401A1D02CA0B0059FC62 /* MainViewController.m */,
+			);
+			name = mainView;
+			sourceTree = "<group>";
+		};
+		3FD47BF51D0400B7006A9A2B /* cardView */ = {
+			isa = PBXGroup;
+			children = (
+				3F0040281D0303470059FC62 /* CardsTableViewController.h */,
+				3F0040291D0303470059FC62 /* CardsTableViewController.m */,
+				3F00402B1D030EEF0059FC62 /* AddCardViewController.h */,
+				3F00402C1D030EEF0059FC62 /* AddCardViewController.m */,
+				3F00402E1D030FAA0059FC62 /* CardDetailViewController.h */,
+				3F00402F1D030FAA0059FC62 /* CardDetailViewController.m */,
+			);
+			name = cardView;
+			sourceTree = "<group>";
+		};
+		3FD47BF61D0400C6006A9A2B /* billView */ = {
+			isa = PBXGroup;
+			children = (
+				3F0040311D03110C0059FC62 /* BillListTableViewController.h */,
+				3F0040321D03110C0059FC62 /* BillListTableViewController.m */,
+				3F5FE77A1D05364300CE4892 /* BillDetailView.h */,
+				3F5FE77B1D05364300CE4892 /* BillDetailView.m */,
+			);
+			name = billView;
+			sourceTree = "<group>";
+		};
+		3FD47C361D0460C5006A9A2B /* data */ = {
+			isa = PBXGroup;
+			children = (
+				3F5FE7801D05B0B100CE4892 /* IdentifyBank.h */,
+				3F5FE7811D05B0B100CE4892 /* IdentifyBank.m */,
+			);
+			name = data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +437,7 @@
 				TargetAttributes = {
 					3F003FCD1D02530C0059FC62 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 37CQA5V56V;
+						DevelopmentTeam = 44WA4GYEUJ;
 					};
 					3F003FE61D02530D0059FC62 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -246,9 +476,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FD47BE61D03FD6B006A9A2B /* 2.png in Resources */,
+				3FD47BF11D03FE9D006A9A2B /* 交通银行.png in Resources */,
+				3F00404D1D034BD30059FC62 /* backArrow.png in Resources */,
+				3F5FE7791D04C65200CE4892 /* backArrow1.png in Resources */,
+				3FD47BF21D03FE9D006A9A2B /* 农业银行.png in Resources */,
+				3F0040491D0346C40059FC62 /* bill1.png in Resources */,
+				3FD47BE81D03FD6B006A9A2B /* 4.png in Resources */,
+				3FD47BE71D03FD6B006A9A2B /* 3.png in Resources */,
 				3F003FE11D02530D0059FC62 /* LaunchScreen.storyboard in Resources */,
+				3FD47BE41D03FD6B006A9A2B /* 0.png in Resources */,
+				3F00404B1D0346C40059FC62 /* pay1.png in Resources */,
 				3F003FDE1D02530D0059FC62 /* Assets.xcassets in Resources */,
+				3F00404A1D0346C40059FC62 /* card1.png in Resources */,
+				3F5FE8061D07120E00CE4892 /* 付款.png in Resources */,
+				3FD47BEF1D03FE9D006A9A2B /* 工商银行.png in Resources */,
+				3FD47BE91D03FD6B006A9A2B /* ImageInfo.plist in Resources */,
 				3F003FDC1D02530C0059FC62 /* Main.storyboard in Resources */,
+				3FD47B401D03C76E006A9A2B /* tip.png in Resources */,
+				3FD24B9C1D07C21B008D6A39 /* tipBackWhite.png in Resources */,
+				3FD47BE51D03FD6B006A9A2B /* 1.png in Resources */,
+				3F5FE8071D07120E00CE4892 /* 扫一扫.png in Resources */,
+				3FD47BF01D03FE9D006A9A2B /* 建设银行.png in Resources */,
+				3F5FE8081D07120E00CE4892 /* 转账.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +524,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F003FD91D02530C0059FC62 /* ViewController.m in Sources */,
+				3F5FE84A1D07399600CE4892 /* TransferView.m in Sources */,
+				3F00402A1D0303470059FC62 /* CardsTableViewController.m in Sources */,
+				3F00402D1D030EEF0059FC62 /* AddCardViewController.m in Sources */,
+				3F5FE7C01D06C7F400CE4892 /* PayView.m in Sources */,
+				3FD24B601D07A5E5008D6A39 /* CreatQRView.m in Sources */,
 				3F003FD61D02530C0059FC62 /* AppDelegate.m in Sources */,
+				3F00401B1D02CA0B0059FC62 /* MainViewController.m in Sources */,
+				3FD47BEA1D03FD6B006A9A2B /* MyScrollView.m in Sources */,
+				3F5FE8471D07378100CE4892 /* ScanView.m in Sources */,
+				3F0040091D0253E20059FC62 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
 				3F003FD31D02530C0059FC62 /* main.m in Sources */,
+				3F0F79D11D0492AD005A82DE /* IdModel.m in Sources */,
+				3F0F79CE1D04925E005A82DE /* SSKeychain.m in Sources */,
+				3F0040141D029A6F0059FC62 /* SignInViewController.m in Sources */,
+				3F5FE77C1D05364300CE4892 /* BillDetailView.m in Sources */,
+				3F0040331D03110C0059FC62 /* BillListTableViewController.m in Sources */,
+				3F5FE7821D05B0B100CE4892 /* IdentifyBank.m in Sources */,
+				3F00400A1D0253E20059FC62 /* UIView+SDAutoLayout.m in Sources */,
+				3F5FE77F1D05444400CE4892 /* DSToast.m in Sources */,
+				3F0040301D030FAA0059FC62 /* CardDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,10 +684,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = bankOnTips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = izumi.bankOnTips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -427,10 +699,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = bankOnTips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = izumi.bankOnTips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -499,6 +775,7 @@
 				3F003FFD1D02530D0059FC62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F003FFE1D02530D0059FC62 /* Build configuration list for PBXNativeTarget "bankOnTipsTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +784,7 @@
 				3F0040001D02530D0059FC62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F0040011D02530D0059FC62 /* Build configuration list for PBXNativeTarget "bankOnTipsUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +793,7 @@
 				3F0040031D02530D0059FC62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
